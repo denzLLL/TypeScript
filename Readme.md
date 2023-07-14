@@ -3,6 +3,7 @@
 
 3
 1
+2
 
 ```
 npm i -g typescript
