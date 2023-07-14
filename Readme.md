@@ -1,5 +1,7 @@
 ## Установка ts
 
+3
+
 ```
 npm i -g typescript
 ```
