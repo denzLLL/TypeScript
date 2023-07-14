@@ -1,7 +1,7 @@
 ## Установка ts
 
 3
-
+3master
 ```
 npm i -g typescript
 ```
