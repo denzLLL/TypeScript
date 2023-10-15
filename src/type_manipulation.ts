@@ -81,7 +81,7 @@ const userA = {
   name: 'Vasya'
 }
 
-type keyofUser = keyof typeof user; // получаем все ключи user
+type keyofUser = keyof typeof user; // получаем все ключи user - "name" | "age" | "skills" | "id"
 
 enum Direction {
   Up,
@@ -89,7 +89,7 @@ enum Direction {
 }
 
 type d = keyof typeof Direction; // создали type с названиями св-в enum Direction
-const dText: d = 'Up';
+const dText: d = 'Up'; // "Up" | "Down"
 
 
 //------------------------ Indexed Access types (обращения по индексу в типах)
